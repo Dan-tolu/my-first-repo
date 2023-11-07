@@ -192,9 +192,10 @@ a:hover{
 @media  only screen and (max-width:414px)
 {
     .main{
-        width: 390px;
+        /* width: 390px; */
         /* min-width: 360px; */
         /* max-width: 414px; */
+        width: 100%;
         align-items: center;
         font-size:10px;
     }
