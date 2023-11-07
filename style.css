@@ -189,6 +189,35 @@ a:hover{
     margin-top: 80px;
     font-size: 120%;
 }
+@media  only screen and (max-width:428px)
+{
+    .main{
+        /* width: 390px; */
+        width: 100%;
+        padding: 0 0 0 0;
+        /* min-width: 360px; */
+        /* max-width: 414px; */
+        align-items: center;
+        font-size:10px;
+    }
+    #header{
+        display: none;
+        width: 0%;
+    }
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .each{
+        width: 130px;
+    }
+    .dark{
+        width: 93%;
+        margin: 0 0 0 13px;
+    }
+    
+    
+}
 @media  only screen and (max-width:414px)
 {
     .main{
